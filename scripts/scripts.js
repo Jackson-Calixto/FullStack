@@ -15,6 +15,7 @@ $.getData = function(){
 			dfd.reject(err);
 		}
 	});
+	
 	return dfd.promise();
 };
 //
